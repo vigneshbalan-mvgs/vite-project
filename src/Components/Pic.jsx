@@ -8,11 +8,11 @@ import SilentVoice from '../assets/SilentVoice.jpg';
 
 function Pic() {
     return (
-        <div className="d-flex justify-content-around mt-5 pt-5 flex-wrap gap-3 mb-3 ">
+        <div className="d-flex justify-content-around pt-5 flex-wrap gap-3 mb-3">
             
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src= {DeathNote} />
-            <Card.Body>
+            <Card style={{ width: '18rem', borderRadius :'15px' }}>
+            <Card.Img style={{borderRadius :'15px'}}  variant="top" src= {DeathNote} />
+            <Card.Body >
                 <Card.Title>Death Note</Card.Title>
                     <Card.Text>
                         A shinigami, as a god of death, can kill any person—provided they see their victim's face and write their victim's name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use a Death Note,..
@@ -20,8 +20,8 @@ function Pic() {
                 <Button variant="primary" href='https://aniwatch.to/death-note-60?ref=search'>To Watch</Button>
             </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src= {Naruto} />
+            <Card style={{ width: '18rem', borderRadius :'15px' }}>
+            <Card.Img style={{borderRadius :'15px'}} variant="top" src= {Naruto} />
             <Card.Body>
                 <Card.Title>Naruto</Card.Title>
                     <Card.Text>
@@ -30,8 +30,8 @@ function Pic() {
                 <Button variant="primary" href='https://aniwatch.to/naruto-677'>To Watch</Button>
             </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src= {OnePiece} />
+            <Card style={{ width: '18rem', borderRadius :'15px' }}>
+            <Card.Img style={{borderRadius :'15px'}} variant="top" src= {OnePiece} />
             <Card.Body>
                 <Card.Title>OnePiece</Card.Title>
                     <Card.Text>
@@ -40,8 +40,8 @@ function Pic() {
                 <Button variant="primary" href='https://aniwatch.to/one-piece-100'>To Watch</Button>
             </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src= {OnePunchMan} />
+            <Card style={{ width: '18rem', borderRadius :'15px' }}>
+            <Card.Img style={{borderRadius :'15px'}} variant="top" src= {OnePunchMan} />
             <Card.Body>
                 <Card.Title>OnePunchMan</Card.Title>
                     <Card.Text>
@@ -50,8 +50,8 @@ function Pic() {
                 <Button variant="primary" href='https://aniwatch.to/one-punch-man-63?ref=search'>To Watch</Button>
             </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src= {SilentVoice} />
+            <Card style={{ width: '18rem', borderRadius :'15px' }}>
+            <Card.Img style={{borderRadius :'15px'}} variant="top" src= {SilentVoice} />
             <Card.Body>
                 <Card.Title>A Silent Voice</Card.Title>
                     <Card.Text>

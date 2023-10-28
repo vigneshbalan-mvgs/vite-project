@@ -12,6 +12,8 @@ function NavbarComponent() {
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="https://aniwatch.to/">AniWatch</Nav.Link>
+            <Nav.Link href="https://aniwatch.to/movie">Movies</Nav.Link>
+            <Nav.Link href="https://aniwatch.to/top-airing">Top Airing</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
